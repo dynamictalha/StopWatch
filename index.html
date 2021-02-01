@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monda:wght@700&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>STOP WATCH</title>
+  </head>
+  <body>
+    <div class="timerBox">
+      <div id="stopWatch">
+        <h1>Stop Watch</h1>
+      </div>
+      <div>
+        <h1 id="min">0</h1>
+        <h1 id="sec">0</h1>
+        <h1 id="msec">0</h1>
+      </div>
+      <div>
+        <button onclick="start()">Start</button>
+        <button onclick="stop()">Pause</button>
+        <button onclick="reset()">Reset</button>
+      </div>
+    </div>
+  </body>
+  <script src="stopWatch.js"></script>
+</html>

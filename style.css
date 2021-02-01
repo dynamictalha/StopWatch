@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  background: url(https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1951&q=80)
+    no-repeat center center/cover;
+  background-size: 2200px;
+}
+.timerBox {
+  display: inline-block;
+  width: 600px;
+  height: 300px;
+  background-color: black;
+  border-radius: 30px;
+  margin: 250px 0px;
+  box-shadow: 7px 7px 12px black;
+}
+
+h1 {
+  display: inline-block;
+  width: 100px;
+  border-radius: 10px;
+  margin-left: 8px;
+  background-color: white;
+  color: black;
+  font-family: "Russo One", sans-serif;
+}
+#stopWatch h1 {
+  background-color: black;
+  color: white;
+}
+button {
+  outline: none;
+  font-weight: bold;
+  width: 54px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-left: 25px;
+  font-family: "Russo One", sans-serif;
+}
+
+button:focus {
+  box-shadow: 1px 1px 8px white;
+}
